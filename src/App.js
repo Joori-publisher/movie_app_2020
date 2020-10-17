@@ -1,12 +1,17 @@
 import React from 'react';
-import Potato from './Potato';
 
+function Food({name}){
+  return <h1>Hello {name}!!!</h1>
+}
 
 function App() {
   return (
     <div>
       Heloo!
-      <Potato/> 
+      <Food name="jihoon"/> 
+      <Food name="joori"/> 
+      <Food name="jennr"/> 
+      <Food name="jennr"/> 
     </div>
   );
 }
